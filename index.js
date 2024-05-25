@@ -123,6 +123,7 @@ function createWindow() {
             contextIsolation: false
         },
     })
+    win.loadFile('index.html');
 }
 
 function getPlatformIcon(filename){
